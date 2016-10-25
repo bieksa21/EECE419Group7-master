@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+	    <Button
+	        android:id="@+id/bump_button"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.1"
+	        android:onClick="startBump"
+	        android:text="@string/bump_button_text" />
+	    
+	    <Button
+	        android:id="@+id/settings_button"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+			android:layout_weight="0.1"
+	        android:onClick="startDiff"
+	        android:text="@string/diff_button_text" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:orientation="vertical"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+	    
+        <FrameLayout 
+    	    android:id="@+id/facebook_auth_container"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" />
+    </LinearLayout>
+    
+    <LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="0.1" >
+        
+    	<FrameLayout 
+    	    android:id="@+id/active_schedule_container"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" />
+    </LinearLayout>
+	
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    	
+    	<HorizontalScrollView 
+    	    android:layout_width="match_parent"
+        	android:layout_height="wrap_content" >
+        
+        	<LinearLayout
+            	android:id="@+id/active_schedule_day_button_scroller"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:orientation="horizontal" />
+    	</HorizontalScrollView>
+    </LinearLayout>  
+
+</LinearLayout>

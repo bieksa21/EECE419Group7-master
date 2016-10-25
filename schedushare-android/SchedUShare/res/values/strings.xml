@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SchedUShare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="edit_message">Enter a Message</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_main_menu">Main Menu</string>
+    <string name="username_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="login_button_text">Login</string>
+    <string name="bump_button_text">Bump</string>
+    <string name="diff_button_text">Diff</string>
+    <string name="title_activity_schedules_menu">Schedules Menu</string>
+    <string name="tab_user_schedules">Me</string>
+    <string name="tab_friend_schedules">Friends</string>
+    <string name="tab_create_schedule">New</string>
+    <string name="app_id">100990793398405</string>
+    <string name="new_schedule_dialog_title">New Schedule</string>
+    <string name="new_schedule_dialog_name_input_hint">Name of Schedule</string>
+    <string name="create_button_text">Create</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="title_activity_edit_schedule">Edit Schedule</string>
+    <string name="title_activity_edit_time_block">Edit Time Block</string>
+    <string name="edit_time_block_name_text">Name</string>
+    <string name="edit_time_block_type_text">Type</string>
+    <string name="edit_time_block_location_text">Location</string>
+    <string name="edit_time_block_location_button_text">See Map</string>
+    <string name="edit_time_block_start_time_text">Start Time</string>
+    <string name="edit_time_block_end_time_text">End Time</string>
+    <string name="edit_time_block_confirm_button_text">Confirm</string>
+    <string name="edit_time_block_cancel_button_text">Cancel</string>
+    <string name="title_activity_select_location">Select Location</string>
+    <string name="tab_delete_schedule">Delete</string>
+    <string name="delete_schedule_dialog_title">Are You Sure?</string>
+    <string name="confirm_button_text">Confirm</string>
+    <string name="rename_schedule_dialog_title">Rename Schedule</string>
+    <string name="rename_schedule_dialog_name_input_hint">New Name</string>
+    <string name="tab_rename_schedule">Rename</string>
+    <string name="settings_owner_id">owner_id</string>
+    <string name="settings_owner_active_schedule_id">owner_active_schedule_id</string>
+    <string name="settings_owner_active_schedule_sid">owner_active_schedule_sid</string>
+    <string name="settings_owner_facebook_id">owner_facebook_id</string>
+    <string name="settings_owner_facebook_name">owner_facebook_name</string>
+    <string name="settings_owner_facebook_username">owner_facebook_username</string>
+    <string name="error_dialog_title">Error</string>
+    <string name="error_dialog_button_text">OK</string>
+    <string name="title_activity_friend_picker">Diff</string>
+    <string name="tab_view_schedules">My Schedules</string>
+    <string name="beam_button_text">Bump</string>
+    <string name="title_activity_beam">Bump</string>
+    <string name="title_activity_diff">Diff</string>
+    <string name="set_active_schedule_dialog_title">Are You Sure?</string>
+    <string name="tab_set_active_schedule">Set Active</string>
+    <string name="title_activity_create_facebook_event">Create Facebook Event</string>
+    <string name="fb_event_name_text">Name</string>
+    <string name="fb_event_start_time_text">Start Time</string>
+    <string name="fb_event_end_time_text">End Time</string>
+    <string name="tab_create_fb_event">Create Facebook Event</string>
+    <string name="title_activity_beam_diff">BeamDiffActivity</string>
+
+</resources>
